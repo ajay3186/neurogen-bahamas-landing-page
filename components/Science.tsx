@@ -9,7 +9,7 @@ const topics = [
     title: "Neurogenesis & Angiogenesis",
     shortDesc: "Repairing brain connections",
     longDesc: "Our therapy focuses on two critical biological processes: Neurogenesis (the growth of new neurons) and Angiogenesis (the formation of new blood vessels). By introducing stem cells, we aim to improve blood flow (perfusion) to hypoperfused areas of the brain, potentially awakening dormant neurons and fostering new neural pathways essential for speech and cognitive function.",
-    image: "public/images/brain-blood-vessels (1).jpg",
+    image: "/images/brain-blood-vessels (1).jpg",
     color: "text-[#018EA9]",
     bgColor: "bg-[#018EA9]/10",
     borderColor: "border-[#018EA9]"
@@ -20,7 +20,7 @@ const topics = [
     title: "Immune Regulation",
     shortDesc: "Reducing neuroinflammation",
     longDesc: "Chronic neuroinflammation is a common underlying factor in Autism. Mesenchymal signaling from the administered cells can help modulate the immune system. This 'immunomodulatory' effect helps shift the brain's environment from an inflammatory state to a reparative state, which may reduce symptoms of hyperactivity and irritability.",
-    image: "public/images/Immune-system.jpg",
+    image: "/images/Immune-system.jpg",
     color: "text-[#Ab8039]",
     bgColor: "bg-[#FEB930]/10",
     borderColor: "border-[#FEB930]"
@@ -31,7 +31,7 @@ const topics = [
     title: "Safety First Approach",
     shortDesc: "Autologous & Minimally Invasive",
     longDesc: "Your child's safety is paramount. We exclusively use autologous bone marrow mononuclear cells (BMMNCs) harvested from the patient's own body. This eliminates the risk of immune rejection (GvHD) and avoids the ethical concerns associated with embryonic cells. The procedure is performed by world-class neurosurgeons in a hospital setting.",
-    image: "public/images/examining-small-girl-with-stethoscope.jpg",
+    image: "/images/examining-small-girl-with-stethoscope.jpg",
     color: "text-[#75422F]",
     bgColor: "bg-[#75422F]/10",
     borderColor: "border-[#75422F]"

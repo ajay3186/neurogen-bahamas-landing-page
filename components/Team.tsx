@@ -8,7 +8,7 @@ const doctors: Doctor[] = [
     name: "Dr. Alok Sharma",
     role: "Director, NeuroGen Brain and Spine Institute",
     credentials: "Neurosurgeon, Neuroscientist & Professor",
-    image: "public/images/Dr-Alok-Sharma-min.png",
+    image: "/images/Dr-Alok-Sharma-min.png",
     bio: "Dr. Alok Sharma is a world-renowned Neurosurgeon, Neuroscientist and Professor who brings with him extensive surgical expertise & experience in the areas of Neurosurgery, Neuroscience and Stem Cell Therapy. He is currently the Director of NeuroGen Brain and Spine Institute. He has over 30 years of experience in the field of Neurosurgery and has several awards and recognitions to his name."
   },
   {
@@ -16,7 +16,7 @@ const doctors: Doctor[] = [
     name: "Dr. Nandini Gokulchandran",
     role: "Deputy Director & Head of Medical Services",
     credentials: "Stem Cell & Neuroregeneration Specialist",
-    image: "public/images/Dr-Nandini-min.png",
+    image: "/images/Dr-Nandini-min.png",
     bio: "Dr. Nandini Gokulchandran is the Deputy Director and Head of Medical Services at NeuroGen Brain and Spine Institute. She has worked for several years with the esteemed Tata Institute of Fundamental Research (TIFR) where she worked around subjects concerning Stem Cells and Neuroregeneration. She brings to NeuroGen an astute amalgamation of medical / clinical backgrounds with deep faith and understanding of research in Stem Cell Therapy."
   },
   {
@@ -24,7 +24,7 @@ const doctors: Doctor[] = [
     name: "Dr. Prerna Badhe",
     role: "Deputy Director & Head Cell Laboratory Services",
     credentials: "Consultant Neuropathologist",
-    image: "public/images/Dr-Prerna-min.png",
+    image: "/images/Dr-Prerna-min.png",
     bio: "Dr. Prerna Badhe is a Consultant Neuropathologist, Deputy Director and Head Cell Laboratory services at the NeuroGen Brain and Spine Institute. She has authored several research papers and most of her work has been published in journals of international repute. Trained at the National Institute of Health (NIH), Baltimore, John Hopkins, USA, in Neural Cells and at the Kentucky Spinal Cord and Injury Research Centre (KSCIRC), USA."
   },
   {
@@ -32,7 +32,7 @@ const doctors: Doctor[] = [
     name: "Dr. Hemangi Sane",
     role: "Deputy Director & Head of R&D",
     credentials: "MD Internal Medicine",
-    image: "public/images/Dr-Hemangi-min.png",
+    image: "/images/Dr-Hemangi-min.png",
     bio: "Dr. Hemangi Sane is the Deputy Director and Head of Research and Development at NeuroGen Brain and Spine Institute. She is a trained physician with an MD in Internal Medicine from New York Medical College, USA. She is one of the leading physicians of the world committed towards finding treatment for neurological disorders through research. She runs her foundation “Asha Ek Hope” for patients diagnosed with ALS/MND."
   },
   {
@@ -40,7 +40,7 @@ const doctors: Doctor[] = [
     name: "Dr. Teykia Deveaux",
     role: "Pediatric Specialist",
     credentials: "MD, DABP, FAAP",
-    image: "public/images/Dr-Teykia-min.png",
+    image: "/images/Dr-Teykia-min.png",
     bio: "Dr. Teykia Deveaux has over a decade of international experience in general pediatrics. A graduate of Howard University College of Medicine, she pursued an internship at Nagoya Daiichi Red Cross Hospital in Nagoya, Japan, before completing a pediatric residency at Peyton Manning Children’s Hospital in Indianapolis. She is Board Certified by the American Board of Pediatrics. Her special interests include developmental disorders like Autism."
   }
 ];
