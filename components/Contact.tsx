@@ -28,7 +28,12 @@ const Contact: React.FC = () => {
                   <Mail className="w-6 h-6 text-[#FEB930] mt-1" />
                   <div>
                     <h4 className="font-semibold">Email Us</h4>
-                    <p className="text-slate-200 text-sm">patientcare@neurogenbahamas.com</p>
+                    <p className="text-slate-200 text-sm"><a
+    href="mailto:contact@bahamasneurogen.com"
+    className="text-slate-400 text-[#FFFFFF] hover:text-[#FEB930] transition-colors"
+  >
+    contact@bahamasneurogen.com
+  </a></p>
                   </div>
                 </div>
               </div>
