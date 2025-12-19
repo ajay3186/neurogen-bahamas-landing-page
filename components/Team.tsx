@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionHeader from './SectionHeader';
 import { Doctor } from '../types';
-import { useEffect } from "react";
 
 
 const doctors: Doctor[] = [
@@ -48,10 +47,6 @@ const doctors: Doctor[] = [
 ];
 
 const Team: React.FC = () => {
-
-  useEffect(() => {
-    document.title = "Bahamas NeuroGen";
-  }, []);
 
   return (
     <section id="team" className="py-20 bg-slate-50 scroll-mt-32">
