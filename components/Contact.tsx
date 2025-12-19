@@ -23,13 +23,7 @@ const Contact: React.FC = () => {
                     <p className="text-slate-200 text-sm">One Sandyport Plaza<br/>Nassau, Bahamas</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <Phone className="w-6 h-6 text-[#FEB930] mt-1" />
-                  <div>
-                    <h4 className="font-semibold">Call Us</h4>
-                    <p className="text-slate-200 text-sm">+1 (242) 555-0123</p>
-                  </div>
-                </div>
+            
                 <div className="flex items-start gap-4">
                   <Mail className="w-6 h-6 text-[#FEB930] mt-1" />
                   <div>

@@ -75,7 +75,7 @@ useEffect(() => {
       <div className="absolute inset-0 bg-gradient-to-r from-[#000000] via-[#018EA9]/40 to-transparent" />
 
       {/* Content */}
-      <div className="container mx-auto px-6 relative z-10 pt-20">
+      <div className="container mx-auto px-6 relative z-10 pt-40 pb-20">
          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="max-w-4xl mx-auto text-center md:text-left md:mx-0">
           
@@ -137,7 +137,7 @@ useEffect(() => {
     <div className="absolute -inset-3 rounded-full bg-gradient-to-r from-[#ff2d8d] to-[#ffb400]" />
 
     {/* Circle mask */}
-    <div className="relative w-[600px] h-[600px] rounded-full overflow-hidden border-[10px] border-[#ff2d8d]/80 shadow-2xl">
+    <div className="relative w-[500px] h-[500px] rounded-full overflow-hidden border-[10px] border-[#ff2d8d]/80 shadow-2xl">
 
       {/* Sliding track */}
       <div
