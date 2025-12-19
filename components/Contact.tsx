@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
                     <h4 className="font-semibold">Email Us</h4>
                     <p className="text-slate-200 text-sm"><a
     href="mailto:contact@bahamasneurogen.com"
-    className="text-slate-400 text-[#FFFFFF] hover:text-[#FEB930] transition-colors"
+    className="text-white hover:text-[#FEB930] transition-colors"
   >
     contact@bahamasneurogen.com
   </a></p>
