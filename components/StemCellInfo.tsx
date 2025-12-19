@@ -41,7 +41,7 @@ const TiltCard = ({ children, className }: { children: React.ReactNode, classNam
 
 const StemCellInfo: React.FC = () => {
   return (
-    <section id="stem-cells" className="py-20 bg-white">
+    <section id="stem-cells" className="py-20 bg-white scroll-mt-32">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">

@@ -97,7 +97,7 @@ const HolisticCare: React.FC = () => {
   const filteredTherapies = therapies.filter(t => t.category === activeCategory);
 
   return (
-    <section id="rehabilitation" className="py-20 bg-slate-50">
+    <section id="rehabilitation" className="py-20 bg-slate-50 scroll-mt-32">
       <div className="container mx-auto px-6">
         <SectionHeader 
           title="Holistic Clinical Care" 

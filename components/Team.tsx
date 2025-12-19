@@ -47,7 +47,7 @@ const doctors: Doctor[] = [
 
 const Team: React.FC = () => {
   return (
-    <section id="team" className="py-20 bg-slate-50">
+    <section id="team" className="py-20 bg-slate-50 scroll-mt-32">
       <div className="container mx-auto px-6">
         <SectionHeader 
           title="Meet Our Medical Team" 

@@ -17,6 +17,8 @@ import RevealOnScroll from './components/RevealOnScroll';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
+  const [mobileOpen, setMobileOpen] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,11 +36,12 @@ function App() {
         }
       }
       if (current) setActiveSection(current);
+      if (mobileOpen) setMobileOpen(false);
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [mobileOpen]);
 
   const navLinkClass = (section: string) => `
     text-sm font-medium transition-all relative
@@ -65,6 +68,15 @@ function App() {
     className="h-28 w-auto object-contain"
   />
 </div>
+          <button
+  className="lg:hidden p-2 rounded-md hover:bg-slate-100 transition"
+  onClick={() => setMobileOpen((v) => !v)}
+  aria-label="Open menu"
+>
+  <span className="block w-6 h-0.5 bg-slate-800 mb-1"></span>
+  <span className="block w-6 h-0.5 bg-slate-800 mb-1"></span>
+  <span className="block w-6 h-0.5 bg-slate-800"></span>
+</button>
 
           
           <div className="hidden lg:flex items-center gap-5">
@@ -80,6 +92,28 @@ function App() {
             </a>
           </div>
         </div>
+        {mobileOpen && (
+  <div className="lg:hidden bg-white/95 backdrop-blur-md border-t border-slate-100">
+    <div className="px-6 py-4 flex flex-col gap-4">
+      <a href="#about" onClick={() => setMobileOpen(false)} className="text-slate-700 font-medium">About</a>
+      <a href="#facilities" onClick={() => setMobileOpen(false)} className="text-slate-700 font-medium">Facilities</a>
+      <a href="#stem-cells" onClick={() => setMobileOpen(false)} className="text-slate-700 font-medium">Stem Cells</a>
+      <a href="#research" onClick={() => setMobileOpen(false)} className="text-slate-700 font-medium">Research</a>
+      <a href="#process" onClick={() => setMobileOpen(false)} className="text-slate-700 font-medium">Process</a>
+      <a href="#rehabilitation" onClick={() => setMobileOpen(false)} className="text-slate-700 font-medium">Rehab</a>
+      <a href="#team" onClick={() => setMobileOpen(false)} className="text-slate-700 font-medium">Team</a>
+
+      <a
+        href="#contact"
+        onClick={() => setMobileOpen(false)}
+        className="mt-2 px-5 py-3 bg-[#FEB930] text-black font-semibold rounded-full text-center"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+)}
+
       </nav>
 
       <main>

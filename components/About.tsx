@@ -39,7 +39,7 @@ const AnimatedCounter = ({ end, duration = 2000 }: { end: number, duration?: num
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white scroll-mt-32">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="lg:w-1/2 relative">
@@ -70,21 +70,18 @@ const About: React.FC = () => {
 
           <div className="lg:w-1/2">
             <SectionHeader 
-              title="About NeuroGen BSI" 
+              title="About Bahamas NeuroGen" 
               subtitle="Pioneering Autologous Bone Marrow-Derived Cell Therapy since 2008."
               centered={false}
             />
             
             <div className="prose prose-lg text-slate-600 mb-8 leading-relaxed">
               <p className="mb-6 hover:text-slate-800 transition-colors duration-300">
-                NeuroGen Brain & Spine Institute, Navi Mumbai, India is a pioneer in Autologous Bone Marrow-Derived Cell/Stem Cell Therapy for neurological disorders such as Autism, Cerebral Palsy, Intellectual Disability, Down Syndrome, Muscular Dystrophy, Spinal Cord Injury, Stroke, Traumatic Brain Injury, and Motor Neuron Disease / ALS.
-              </p>
+                Bahamas NeuroGen Stem Cell Therapy Centre for Autism in the Bahamas is in Nassau (New Providence Island), offering excellent connectivity via Lynden Pindling Airport (NAS) and proximity to stunning turquoise waters, white sand beaches, and vibrant Caribbean culture. It's near Lynden Pindling International Airport (NAS), facilitating easy travel for international patients, especially from North America.</p>
               <p className="mb-6 hover:text-slate-800 transition-colors duration-300">
-                They have a holistic and comprehensive approach to treat patients with a combination of Cell/Stem Cell Therapy, Neurorehabilitation, and Integrative Therapy.
-              </p>
+                 The hospital is surrounded by famous Bahamian beaches with powdery white sand and clear, calm turquoise waters, perfect for recovery. The vibrant coral reefs and diverse marine ecosystems provide incredible snorkelling and diving opportunities.</p>
               <p className="hover:text-slate-800 transition-colors duration-300">
-                NeuroGen Brain & Spine Institute has treated more than 16,000 patients from over 113 different countries from all six continents. The institute is renowned for its academic contributions, having published 112 scientific papers, authored 24 books, and made over 200 scientific presentations globally.
-              </p>
+                Bahamas NeuroGen combines high-quality medical care with the Bahamas' natural beauty and convenient location for a holistic recovery experience.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">

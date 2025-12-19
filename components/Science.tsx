@@ -42,7 +42,7 @@ const Science: React.FC = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section id="science" className="py-20 bg-slate-50">
+    <section id="science" className="py-20 bg-slate-50 scroll-mt-32">
       <div className="container mx-auto px-6">
         <SectionHeader 
           title="The Science Behind the Hope" 

@@ -132,7 +132,7 @@ const Research: React.FC = () => {
   const displayedPublications = showAll ? publications : publications.slice(0, 6);
 
   return (
-    <section id="research" className="py-20 bg-slate-50 border-t border-slate-200">
+    <section id="research" className="py-20 bg-slate-50 border-t border-slate-200 scroll-mt-32">
       <div className="container mx-auto px-6">
         <SectionHeader 
           title="Research & Publications" 

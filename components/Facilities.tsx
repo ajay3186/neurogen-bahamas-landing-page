@@ -3,7 +3,7 @@ import { Building2, Microscope, Activity, BedDouble } from 'lucide-react';
 
 const Facilities: React.FC = () => {
   return (
-    <section id="facilities" className="bg-slate-900 py-16 relative overflow-hidden">
+    <section id="facilities" className="bg-slate-900 py-16 relative overflow-hidden scroll-mt-32">
       {/* Background with overlay */}
       <div className="absolute inset-0 bg-[#018EA9] opacity-10"></div>
       <div className="absolute -right-20 -top-20 w-96 h-96 bg-[#FEB930] rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"></div>

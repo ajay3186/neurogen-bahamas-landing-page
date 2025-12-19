@@ -101,7 +101,7 @@ const Process: React.FC = () => {
   }, []);
 
   return (
-    <section id="process" ref={sectionRef} className="py-16 bg-slate-50 overflow-x-hidden">
+    <section id="process" ref={sectionRef} className="py-16 bg-slate-50 overflow-x-hidden scroll-mt-32">
       <div className="container mx-auto px-4 md:px-6">
         <SectionHeader 
           title="12-Day Treatment Timeline" 
@@ -110,12 +110,14 @@ const Process: React.FC = () => {
         
         <div className="relative mt-12 pb-8">
             {/* Connecting Line (Desktop Only) */}
-            <div className="hidden lg:block absolute top-7 left-4 right-4 h-1 bg-slate-200 -z-10 rounded-full overflow-hidden">
-                 <div 
-                    className="h-full bg-gradient-to-r from-blue-500 via-[#e08916] to-[#6b4c9a] transition-all duration-[1500ms] ease-out"
-                    style={{ width: isVisible ? '100%' : '0%' }}
-                 ></div>
-            </div>
+      
+            {/* <div className="absolute top-7 left-4 right-4 h-1 bg-slate-200 z-10 rounded-full overflow-hidden hidden md:hidden lg:block">
+              <div
+                className="h-full bg-gradient-to-r from-blue-500 via-[#e08916] to-[#6b4c9a] transition-all duration-[1500ms] ease-out"
+                style={{ width: isVisible ? '100%' : '0%' }}
+              />
+            </div> */}
+
 
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 relative">
                 {timelineSteps.map((step, index) => {
@@ -135,7 +137,7 @@ const Process: React.FC = () => {
                         >
                             {/* Connector Line (Mobile Only) */}
                             {index !== timelineSteps.length - 1 && (
-                                <div className="lg:hidden absolute left-6 top-14 bottom-[-16px] w-0.5 bg-slate-200 z-0">
+                                <div className="hidden sm:block lg:hidden absolute left-6 top-14 bottom-[-16px] w-0.5 bg-slate-200 z-0">
                                     <div 
                                         className={`w-full bg-gradient-to-b ${step.color.replace('bg-', 'from-')} to-slate-200 transition-all duration-1000 origin-top`}
                                         style={{ height: isVisible ? '100%' : '0%' }}
