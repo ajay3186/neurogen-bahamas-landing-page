@@ -71,7 +71,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/2">
             <SectionHeader 
               title="About Bahamas NeuroGen" 
-              subtitle="Pioneering Autologous Bone Marrow-Derived Cell Therapy since 2008."
+              subtitle="Part of the NeuroGen group, pioneering cell therapy since 2008."
               centered={false}
             />
             
